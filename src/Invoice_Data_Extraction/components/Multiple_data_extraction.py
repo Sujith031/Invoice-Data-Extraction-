@@ -9,7 +9,7 @@ from PIL import Image
 import google.generativeai as genai
 
 # Configure Google API Key and model settings
-GOOGLE_API_KEY = 'AIzaSyDH9iVF3PPlwzSp2k8W0WdAX_vRRFCw4-I'
+GOOGLE_API_KEY = 'GOOGLE_API_KEY'
 POPPLER_PATH = r'poppler-24.08.0\Library\bin'
 
 # Initialize the Gemini model with configuration

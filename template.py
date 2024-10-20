@@ -10,7 +10,7 @@ project_name = "Invoice_Data_Extraction"
 list_of_files = [
     ".github/workflows/.gitkeep",
     f"src/{project_name}/__init__.py",
-    f"src/{project_name}/conponents/__init__.py",
+    f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/logging/__init__.py",
     f"src/{project_name}/logging/logging.py",
     f"src/{project_name}/custom_exception/__init__.py",

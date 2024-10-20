@@ -8,7 +8,7 @@ import re
 from Levenshtein import distance as levenshtein_distance
 
 
-GOOGLE_API_KEY = 'AIzaSyDH9iVF3PPlwzSp2k8W0WdAX_vRRFCw4-I' 
+GOOGLE_API_KEY = 'GOOGLE_API_KEY' 
 genai.configure(api_key=GOOGLE_API_KEY)
 POPPLER_PATH = r'poppler-24.08.0\Library\bin'
 
