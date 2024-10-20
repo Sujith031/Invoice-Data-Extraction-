@@ -48,8 +48,8 @@ Ensure that Python 3.x is installed on your system. You will also need to instal
 This project provides modules for extracting data from PDF invoices, supporting both single and multiple file extraction. Below are instructions on how to utilize the main components of the project.
 
 - **Single PDF Extraction**
-<video width="600" controls>
-    <source src="research/singlepdf_extraction.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+
+
+https://github.com/user-attachments/assets/e9bf0dd2-29a3-43c5-8aeb-0baf033e8724
+
 
