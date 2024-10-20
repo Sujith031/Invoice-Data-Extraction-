@@ -1,5 +1,6 @@
 # Invoice Data Extraction
-![Alt Text](research/1)
+<img src="research/1" alt="Alt Text" width="300"/>
+
 
 
 ## Description
