@@ -63,3 +63,11 @@ https://github.com/user-attachments/assets/ef281288-dc20-4181-9c3a-34dcdd61dd74
 
 https://github.com/user-attachments/assets/31ecdfc0-e557-4d07-9695-f2bb4799ebf1
 
+
+## Features
+
+- **PDF to Image Conversion**: Uses `pdf2image` to convert invoice pages into images for easier data extraction.
+- **Generative AI Integration**: Utilizes Google's Generative AI for accurate extraction of text from invoice images.
+- **Levenshtein String Matching**: Ensures accurate extraction by matching similar text entries using Levenshtein distance.
+- **Trust Score Calculation**: Computes trust scores using a weighted average approach to assess data reliability.
+- **Single and Multiple PDF Handling**: Supports data extraction from both single invoices and batches of invoices.
