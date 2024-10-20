@@ -1,20 +1,16 @@
 from setuptools import find_packages, setup
 
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
+
 setup(
     name="invoice-extraction",
     version="0.0.1",
-    author="Sumanth G",
-    author_email="your.email@example.com",
+    author="G Sujith Goud",
+    author_email="bs20b017@smail.iitm.ac.in",
     description="A package for invoice data extraction",
     packages=find_packages("src"),
     package_dir={"": "src"},
-    install_requires=[
-        # Add required dependencies here, for example:
-        "pandas>=1.0.0",
-        "numpy>=1.18.0",
-        "openpyxl",  # if you're dealing with Excel files
-        "PyPDF2",    # if you handle PDFs
-    ],
     extras_require={
         "dev": ["pytest>=5.0.0"],
     },
