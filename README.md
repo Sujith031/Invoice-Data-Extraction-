@@ -1,4 +1,6 @@
 # Invoice Data Extraction
+![Alt Text](research/1.jpg)
+
 
 ## Description
 The Invoice Data Extraction project is designed to automate the extraction of essential information from PDF invoices using Python. It utilizes the `pdf2image` library for PDF-to-image conversion, `google.generativeai` for language-based extraction, and the `Levenshtein` library for string similarity matching, ensuring accurate data retrieval even with slight variations in invoice formats. The extracted data can be organized into structured formats for easy further processing.
