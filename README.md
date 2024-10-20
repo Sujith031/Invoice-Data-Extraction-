@@ -53,3 +53,4 @@ This project provides modules for extracting data from PDF invoices, supporting 
 https://github.com/user-attachments/assets/e9bf0dd2-29a3-43c5-8aeb-0baf033e8724
 
 
+- **Multiple PDF Invoices Extraction**
