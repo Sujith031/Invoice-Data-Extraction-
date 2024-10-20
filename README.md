@@ -39,10 +39,10 @@ Ensure that Python 3.x is installed on your system. You will also need to instal
 
 ### Install the Required Dependencies
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt 
 
 
-## Usage Instructions
+### Usage Instructions
 
-This project provides modules for extracting data from PDF invoices, supporting both single and multiple file extraction. Below are instructions on how to utilize the main components of the project.
+    This project provides modules for extracting data from PDF invoices, supporting both single and multiple file extraction. Below are instructions on how to utilize the main components of the project.
 
