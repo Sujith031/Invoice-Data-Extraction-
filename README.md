@@ -1,5 +1,5 @@
 # Invoice Data Extraction
-![Alt Text](research/1.jpg)
+![Alt Text](research/1)
 
 
 ## Description
