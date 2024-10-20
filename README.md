@@ -1,5 +1,7 @@
 # Invoice Data Extraction
-<img src="research/1" alt="Alt Text" width="1000" height="500" allign = "center"/>
+<div align="center">
+    <img src="research/1" alt="Alt Text" width="300"/>
+</div>
 
 
 
