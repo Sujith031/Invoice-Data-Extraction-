@@ -1,5 +1,7 @@
-<h3 style="text-align: center;">Hi 👋 Sujith Here</h3>
-<h1 style="text-align: center;">Invoice-Data-Extraction</h1>
+<div align="center">
+    <h3 style="text-align: center;">Hi 👋 Sujith Here</h3>
+    <h1 style="text-align: center;">Invoice-Data-Extraction</h1>
+</div>
 <div align="center">
     <img src="research/1" alt="Alt Text" width="500" height="300"/>
 </div>
