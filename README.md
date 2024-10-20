@@ -41,7 +41,21 @@ Ensure that Python 3.x is installed on your system. You will also need to instal
 ```bash
 pip install -r requirements.txt 
 
-###Usage Instructions
+# PDF Invoice Data Extraction
 
-    This project provides modules for extracting data from PDF invoices, supporting both single and multiple file extraction. Below are     instructions on how to utilize the main components of the project.
+## Usage Instructions
+
+This project provides modules for extracting data from PDF invoices, supporting both single and multiple file extraction. Below are instructions on how to utilize the main components of the project.
+
+### Prerequisites
+
+- Python 3.x
+- Required libraries (see `requirements.txt` for details)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/pdf-invoice-extraction.git
+   cd pdf-invoice-extraction
 
