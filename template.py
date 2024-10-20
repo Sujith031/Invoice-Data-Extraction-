@@ -5,17 +5,21 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
 
-project_name = "textSummarizer"
+project_name = "Invoice_Data_Extraction"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/conponents/__init__.py",
     f"src/{project_name}/logging/__init__.py",
+    f"src/{project_name}/logging/logging.py",
+    f"src/{project_name}/custom_exception/__init__.py",
+    f"src/{project_name}/custom_exception/exception.py",
     f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/constants/__init__.py",
-    "main.py",
+    f"src/{project_name}/main.py",
+    
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
