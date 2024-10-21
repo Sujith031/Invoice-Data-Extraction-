@@ -231,21 +231,19 @@ def compare_fields(ref_data, user_data):
     return comparison_results
 
 # Function to determine trust level based on the overall accuracy
-def determine_trust_level(overall_accuracy, completeness, consistency, contextual_relevance):
+def determine_trust_level(overall_accuracy, completeness, consistency):
     # Define weights for each factor
     weights = {
-        "accuracy": 0.4,
+        "accuracy": 0.6,
         "completeness": 0.2,
         "consistency": 0.2,
-        "contextual_relevance": 0.2
     }
 
     # Calculate weighted trust score
     trust_score = (
         (weights["accuracy"] * overall_accuracy) +
         (weights["completeness"] * completeness) +
-        (weights["consistency"] * consistency) +
-        (weights["contextual_relevance"] * contextual_relevance)
+        (weights["consistency"] * consistency) 
     )
 
     return trust_score
@@ -286,10 +284,6 @@ def calculate_consistency(ref_data, user_data):
 
     return (matching_fields / total_fields) * 100 if total_fields > 0 else 0.0
 
-# Function to calculate contextual relevance
-def calculate_contextual_relevance(ref_data, user_data):
-    
-    return 100.0  
 
 
 def highlight_comparisons(comparison_results, ref_data, user_data):
@@ -298,10 +292,10 @@ def highlight_comparisons(comparison_results, ref_data, user_data):
 
     completeness = calculate_completeness(ref_data, user_data)
     consistency = calculate_consistency(ref_data, user_data)
-    contextual_relevance = calculate_contextual_relevance(ref_data, user_data)
+    
 
     
-    trust_score = determine_trust_level(overall_accuracy, completeness, consistency, contextual_relevance)
+    trust_score = determine_trust_level(overall_accuracy, completeness, consistency)
 
     
     results = {
